@@ -1,1 +1,6 @@
-.
+#header{
+  height:300px;
+  margin:0px auto 20px auto;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color:#99ff99
+}
