@@ -3,7 +3,7 @@ body{
 }
 
 #wrap{
-  width:300px;
+  width:800px;
   margin:0px auto 20px auto;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size:12px;
