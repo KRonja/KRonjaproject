@@ -17,6 +17,10 @@ body{
   color:#008080;
 }
 
+#topbar {
+  height:30px;
+}
+
 #topmenu {
   display:block;
   list-style:none;
