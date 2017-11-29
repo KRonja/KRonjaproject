@@ -3,7 +3,7 @@ body{
 }
 
 #wrap{
-  width:150px;
+  width:350px;
   margin:0px auto 20px auto;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size:12px;
@@ -24,9 +24,9 @@ body{
 #topmenu {
   display:block;
   list-style:none;
-  padding:0 0px 0px 280px;
+  padding:0 0px 0px 20px;
   float:right;
-  width:420px;
+  width:40px;
 }
 
 #topmenu li {
