@@ -24,6 +24,11 @@ body{
 table, th, td {
   border:1px solid green;
   border-collapse: collapse;
+  padding:15px;
+}
+
+th{
+  text-align:left;  
 }
 
 #topmenu {
