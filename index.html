@@ -3,6 +3,18 @@
   <head>
     <title>Hello</title>
     <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    
+    <script>
+      function validateForm()
+      {
+        if(document.forms["myForm"]["animal"].value==null || document.forms["myForm"]["animal"].value=="")
+        {
+        alert("Please name an animal. D:");
+         return false;
+        }
+        return true;
+      }
+    </script>
   </head>
   
   <body>
@@ -60,7 +72,7 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/zTvFL3LaNM4" frameborder="0" allowfullscreen></iframe>
                                                                                                       
       <h2 id="form">Something to fill</h2>
-      <form>
+      <form name="myForm" onsubmit="return validateForm()">
           Name an animal: <input type="text" name="animal" >
           <br>You are:<br> <input type="radio" name="you" value="fine" checked> fine
           <br><input type="radio" name="you" value="stressed" checked> stressed
