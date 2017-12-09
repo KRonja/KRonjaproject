@@ -74,7 +74,7 @@ th{
   width:650px;
   float:left;
   padding:5px 5px 5px 0px;
-  height:auto;
+  height:50px;
 }
 
 #mainpage p{
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #mainpage h3 {
-  font-size:20px;
+  font-size:18px;
 }
 #mainpage h4 {
   font-size:16px;
